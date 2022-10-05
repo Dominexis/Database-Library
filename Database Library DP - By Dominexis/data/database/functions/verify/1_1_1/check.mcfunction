@@ -8,7 +8,7 @@ execute if score #module_count nexus.value matches 2.. run tellraw @a ["",{"text
 scoreboard players set #expected_major nexus.value 1
 scoreboard players set #expected_minor nexus.value 10
 scoreboard players set #expected_patch nexus.value 0
-scoreboard players set #installed_major nexus.value 1
+scoreboard players set #installed_major nexus.value 0
 scoreboard players set #installed_minor nexus.value 0
 scoreboard players set #installed_patch nexus.value 0
 
