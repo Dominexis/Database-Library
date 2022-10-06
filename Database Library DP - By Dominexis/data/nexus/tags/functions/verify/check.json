@@ -1,6 +1,6 @@
 {
     "replace": false,
     "values": [
-        "database:verify/1_1_1/check"
+        "database:verify/1_1_2/check"
     ]
 }
