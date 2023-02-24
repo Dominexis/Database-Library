@@ -1,0 +1,50 @@
+{
+    "module_info": {
+        "module_name": "Database Library",
+        "author": "Dominexis",
+        "version": {
+            "major": 1,
+            "minor": 2,
+            "patch": 0
+        },
+        "internal_id": "database_library",
+        "namespace": "database",
+        "download_link": "https://github.com/Dominexis/Database-Library/releases"
+    },
+    "dependencies": [
+        {
+            "module_name": "Dom's Nexus",
+            "version": {
+                "major": 2,
+                "minor": 0,
+                "patch": 0
+            },
+            "internal_id": "doms_nexus",
+            "download_link": "https://github.com/Dominexis/Doms-Nexus/releases"
+        }
+    ],
+    "features": {
+        "time_manager": false,
+        "player_nbt": false,
+        "player_health": false,
+        "player_respawn": false,
+        "player_motion": false,
+        "entity_processing": false,
+        "entity_health": false,
+        "custom_entity_ticking": false,
+        "unconditional_entity_ticking": false,
+        "damage_sensor_ticking": false,
+        "vehicle": false,
+        "event_id_player_hurt_entity": false,
+        "event_id_player_killed_entity": false,
+        "event_id_entity_hurt_player": false,
+        "event_id_entity_killed_player": false,
+        "event_id_player_interacted_with_entity": false,
+        "object_ticking": false,
+        "maximum_entity_time": 45,
+        "maximum_object_time": 45,
+        "minimum_entity_time": 5,
+        "minimum_object_time": 5,
+        "minimum_difficulty": "peaceful"
+    }
+}

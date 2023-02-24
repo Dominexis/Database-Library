@@ -1,6 +1,6 @@
-# Run installation function
+# Initialize database
 
-execute if score #update_installation_boolean nexus.value matches 1 run function database:setup/install
+execute unless score #database_initialization_boolean nexus.value matches 1 run function nexus:generic/database/initialize
 
 
 
